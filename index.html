@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Iqbal Mohsin | Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <nav class="navbar">
+    <span class="nav-logo">Iqbal Mohsin</span>
+    <ul class="nav-links">
+      <li><a href="#hero">Home</a></li>
+      <li><a href="mailto:mohdiqbal.binmohsin@gmail.com">Contact</a></li>
+    </ul>
+  </nav>
+
+  <section id="hero">
+    <div class="hero-content">
+      <p class="hero-greeting">Hello, I'm</p>
+      <h1 class="hero-name">Iqbal Mohsin</h1>
+      <h2 class="hero-role">Web Developer &amp; Security Enthusiast</h2>
+      <p class="hero-bio">
+        I build clean, functional web experiences and care deeply about
+        application security. Always learning, always shipping.
+      </p>
+      <a href="mailto:mohdiqbal.binmohsin@gmail.com" class="btn">Get In Touch</a>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; <span id="year"></span> Iqbal Mohsin. All rights reserved.</p>
+  </footer>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+
+</body>
+</html>
